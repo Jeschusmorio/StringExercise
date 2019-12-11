@@ -4,7 +4,7 @@ public class StringExerciseMain {
 		String s1 = "Meier";
 		String s2 = "Mayer";
 		int alphOrder = s1.compareTo(s2);
-		if ((alphOrder < 0) || (alphOrder == 0)) {
+		if (alphOrder <= 0) {
 			System.out.println(s1 + "\n" + s2);
 		}
 		else {
